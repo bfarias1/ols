@@ -1,0 +1,254 @@
+/* _mixins.scss */
+/* Border Radius */
+/* Break Word */
+/* Truncate Text */
+/* Single Side Border Radius */
+/* Transitions */
+/* Transition */
+/* Box Shadow */
+/* Circle */
+/* CSS Animations */
+/* Animation */
+/* Transform */
+/* Transform Origin */
+/* Linear Gradient */
+/* _colors.scss */
+/* Player ------------------- */
+/* _colors.scss */
+/* Student */
+/* Teacher */
+/* Learning Coach */
+/* ---------------------------- */
+/* UI ------------------------- */
+/* ---------------------------- */
+/* Drawer --------------------- */
+/* Content -------------------- */
+/* NG Subject Colors ----------------- */
+/* Class Home ----------------- */
+/* Brightspace Deisgn System Colors ----------------- */
+/* Brightspace Deisgn System Colors ----------------- */
+/* New Table Colors */
+/* _grid.scss */
+/* Header Bar ------------------- */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.bug-fix {
+  width: 5px;
+  height: 5px;
+  background: red;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.icon.icon-k5-dropdown {
+  font-size: 28px;
+  position: relative;
+  top: 5px;
+  left: -8px;
+}
+
+.popover {
+  width: 200px !important;
+}
+
+header {
+  background: #286593;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.2;
+  -webkit-transition: margin 0.3s ease-out;
+  transition: margin 0.3s ease-out;
+  -webkit-box-shadow: inset 0px -1px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px -1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 500;
+}
+
+header.lc {
+  background: #357D56;
+}
+
+header.lc .icon-k5-info {
+  font-size: 18px;
+  vertical-align: middle;
+  position: relative;
+  top: 2px;
+}
+
+header .row {
+  margin: 0;
+  position: relative;
+  top: -5px;
+}
+
+header .container-fluid {
+  padding: 0 20px;
+  margin: 0;
+}
+
+header [class*="col-"] {
+  padding: 0 !important;
+}
+
+header #back-btn {
+  padding-left: 0;
+}
+
+header #back-btn .icon-k5-arrow-left {
+  font-size: 18px;
+  position: relative;
+  overflow: hidden;
+  top: 2px;
+}
+
+header a {
+  display: inline-block;
+  color: white;
+  font-weight: 400;
+  padding: 2px 4px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+header a:hover, header a:focus {
+  color: white;
+}
+
+header a:hover .icon-k5-arrow-left, header a:focus .icon-k5-arrow-left {
+  -webkit-animation: move-left .4s 1 ease-out;
+  animation: move-left .4s 1 ease-out;
+}
+
+@-webkit-keyframes move-left {
+  0% {
+    left: 12px;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes move-left {
+  0% {
+    left: 12px;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+header a:focus {
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+header.scrolling {
+  margin-top: -28px;
+}
+
+header .icon-k5-dotted-vr {
+  margin: 0 -3px 0 -9px;
+  font-size: 30px;
+  opacity: 0.25;
+  position: relative;
+  top: 5px;
+}
+
+#iframe-container {
+  margin-top: 28px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 100;
+  -webkit-transition: margin 0.3s ease-out;
+  transition: margin 0.3s ease-out;
+}
+
+#iframe-container.scrolling {
+  margin-top: 0;
+}
+
+iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  header {
+    font-size: 12px;
+  }
+  header .row {
+    margin: 0;
+  }
+  header .container-fluid {
+    padding: 0 10px;
+    margin: 0;
+  }
+  header [class*="col-"] {
+    padding: 0 !important;
+  }
+  header .col-xs-7,
+  header .col-xs-9 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  header .col-xs-7 #lesson-title,
+  header .col-xs-9 #lesson-title {
+    background: #286593;
+  }
+  header.lc #lesson-title {
+    background: #357D56;
+  }
+  header .row {
+    overflow: visible !important;
+  }
+  header #lc-tooltip {
+    margin: 0 -5px 0 0;
+  }
+  header #lc-tooltip .icon-k5-info {
+    display: inline-block;
+    padding: 0 5px;
+    text-align: center;
+  }
+  header #lc-label {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=player.css.map */

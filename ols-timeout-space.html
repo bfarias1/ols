@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>K12 Online School</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/qualaroo-custom.css">
+
+    <!-- Required Glide JS stylesheet -->
+    <link rel="stylesheet" href="css/glide.core.min.css">
+    <!-- Optional Theme Stylesheet -->
+    <link rel="stylesheet" href="css/glide.theme.min.css">
+</head>
+
+<body>
+    <div class="lesson-player">
+        
+    </div>
+    <div id="approot" class="beta space-theme">
+        <div class="beta-bar">
+            <div class="back-btn">
+                <a href="index.html" target="_self">
+                    <svg width="7px" height="11px" viewBox="0 0 7 11" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill-rule="evenodd">
+                            <path
+                                d="M0.22484046,5.10638313 L5.0813701,0.196400295 C5.32119993,-0.0654667652 5.56102615,-0.0654667652 5.80085598,0.196400295 L6.82012763,1.37479618 C7.05995746,1.63666324 7.05995746,1.89852637 6.82012763,2.16039343 L3.91220556,5.10638313 C3.65238992,5.39007245 3.65238992,5.67375751 3.91220556,5.95744682 L6.76017048,8.83797009 C6.98001448,9.07801489 7,9.33987803 6.82012763,9.62356734 L5.80085598,10.8019632 C5.58101197,11.042008 5.34118575,11.06383 5.0813701,10.8674297 L0.22484046,5.95744682 C-0.0749468199,5.630113 -0.0749468199,5.34642794 0.22484046,5.10638313 Z"
+                                id="Q">
+                            </path>
+                        </g>
+                    </svg>Classic Online School</a>
+            </div>
+            <div class="message">
+                <span>You’re getting a sneak peek at your new online school. Let us know what you think!</span>
+            </div>
+            <div>
+                <a class="feedback-btn" href="#">Send Feedback</a>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-container">
+                <li class="nav-item" id="profile">
+                    <a href="#" target="_self" id="profile-btn">
+                        <div id="user" class="icey">
+                            <div id="user-container" class="sprite"><img src="img/avatars/icey.png" alt=""></div>
+                        </div>
+                        <label for="Profile Page">Cordelia</label>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="active" id="courses-btn">
+                        <div class="icon-container">
+                            <div class="icon lines">
+                                <img src="img/icons/icon_courses_lines.svg" alt="">
+                            </div>
+                            <div class="icon fill">
+                                <img src="img/icons/icon_courses_fill.svg" alt="">
+                            </div>
+                        </div>
+                        <label for="Courses Page">Courses</label>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" target="_self" id="plan-btn">
+                        <div class="icon-container">
+                            <div class="icon lines"><img src="img/icons/icon_plan_lines.svg" alt=""></div>
+                            <div class="icon fill"><img src="img/icons/icon_plan_fill.svg" alt=""></div>
+                        </div>
+                        <label for="Plan Page">Plan</label>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" target="_self" id="messages-btn">
+                        <div class="icon-container">
+                            <div class="icon lines"><img src="img/icons/icon_connect_lines.svg" alt=""></div>
+                            <div class="icon fill"><img src="img/icons/icon_connect_fill.svg" alt=""></div>
+                        </div>
+                        <label for="Messages Page">Messages</label>
+                        <div class="badge yellow">7 New</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" id="resources-btn">
+                        <div class="icon-container">
+                            <div class="icon lines"><img src="img/icons/icon_resources_lines.svg" alt=""></div>
+                            <div class="icon fill"><img src="img/icons/icon_resources_fill.svg" alt=""></div>
+                        </div>
+                        <label for="Resources Page">Resources</label>
+                    </a>
+                </li>
+                <li class="nav-item" id="school">
+                    <a href="#" target="_self" id="school-btn">
+                        <div class="school-img"><img src="img/school_logos/azva.png" alt=""></div>
+                        <label for="k12">powered by</label>
+                        <div class="k12-logo"><img src="img/k12_logo_inverted.svg" alt=""></div>
+                    </a>
+                    <ul id="school-drawer">
+                        <div class="school-name">Arizona Virtual Academy</div>
+                        <li><a href="https://www.k12.com/terms-of-use?_ga=2.250831750.1229784569.1561495703-1455052295.1542137917" target="_blank">Terms <img src="img/icons/icon_new_tab_small.svg" alt=""></a></li>
+                        <li><a href="https://www.k12.com/privacy-policy?_ga=2.250831750.1229784569.1561495703-1455052295.1542137917" target="_blank">Privacy <img src="img/icons/icon_new_tab_small.svg" alt=""></a></li>
+                        <li><a href="https://www.k12.com/ip-policy?&_ga=2.250831750.1229784569.1561495703-1455052295.1542137917#copyrights" target="_blank">Copyright <img src="img/icons/icon_new_tab_small.svg" alt=""></a></li>
+                        <li><a href="https://www.k12.com/accessibility.html?_ga=2.10634804.1229784569.1561495703-1455052295.1542137917" target="_blank">Accessibility <img src="img/icons/icon_new_tab_small.svg" alt=""></a></li>
+                        <li>Copyright &copy; <span class="year">2019</span> K12 Inc. All Rights Reserved</li>
+                        <a href="#" class="close-btn"><img src="img/icons/icon_chevron_left.svg" alt=""></a>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="content">
+            
+        </div>
+        <div class="modal" id="avatar-modal">
+            <div class="modal-window">
+                <div class="modal-title">
+                    <img src="img/icons/icon_avatar_edit.svg">
+                            &nbsp;&nbsp;Select a Profile Character <a href="#" class="close" id="close-btn"><img src="img/icons/icon_close.svg" alt=""></a>
+                </div>
+                <div class="modal-content center">
+                    <ul id="avatar-grid">
+                        <li>
+                            <a href="#" class="selected">
+                                <div class="avatar sprite">
+                                    <div>
+                                        <img src="img/avatars/icey.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Icey</label>
+                                <div class="selected-arrow">
+                                    <img src="img/icons/icon_check_white.svg" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar doughnut">
+                                    <div>
+                                        <img src="img/avatars/doughnut.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Crumbler</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar flower">
+                                    <div>
+                                        <img src="img/avatars/flower.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Bloomer</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar">
+                                    <div>
+                                        <img src="img/avatars/basketball.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Bouncer</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar dragon">
+                                    <div>
+                                        <img src="img/avatars/dragon.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Green Bean</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar robot">
+                                    <div>
+                                        <img src="img/avatars/robot.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">kbot-1-2</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar takeout">
+                                    <div>
+                                        <img src="img/avatars/takeout.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Outtake</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar cactus">
+                                    <div class="avatar-img">
+                                        <img src="img/avatars/cactus.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Sunshine</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar tomato">
+                                    <div class="avatar-img">
+                                        <img src="img/avatars/tomato.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Marinara</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar pear">
+                                    <div class="avatar-img">
+                                        <img src="img/avatars/pear.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Belly Gelly</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar monster">
+                                    <div class="avatar-img">
+                                        <img src="img/avatars/monster.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Kerfluffle</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar raindrop">
+                                    <div class="avatar-img">
+                                        <img src="img/avatars/raindrop.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Rain Drop</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar cheese-puff">
+                                    <div class="avatar-img">
+                                        <img src="img/avatars/cheese-puff.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Cheese Puff</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar light-bulb">
+                                    <div class="avatar-img">
+                                        <img src="img/avatars/light-bulb.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Good Idear</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar jackalope">
+                                    <div class="avatar-img">
+                                        <img src="img/avatars/jackalope.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Jackalope</label>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">
+                                <div class="avatar beanie">
+                                    <div>
+                                        <img src="img/avatars/beanie.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Snapper</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar sandwich">
+                                    <div>
+                                        <img src="img/avatars/sandwich.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Sammitch</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar heart">
+                                    <div>
+                                        <img src="img/avatars/heart.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Beat Box</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar unicorn">
+                                    <div class="avatar-img">
+                                        <img src="img/avatars/unicorn.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Candy Mane</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="avatar taco">
+                                    <div class="avatar-img">
+                                        <img src="img/avatars/taco.png" alt="">
+                                    </div>
+                                </div>
+                                <label for="Profile Page">Cruncher</label>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="notification" id="lc-login-error" style="display:none">
+            <div class="notification-window error">
+                <div class="notification-icon">
+                    <img src="img/icons/icon_sad.svg" alt="">
+                </div>
+                <div class="notification-title">Whoops!</div>
+                <div class="notification-copy">
+                    Incorrect username or password.
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="change-user-modal">
+            <div class="modal-window">
+                <div class="modal-title">
+                    <img src="img/icons/icon_change_user_white.svg">
+                            &nbsp;&nbsp;Change User <a href="#" class="close" id="close-btn"><img src="img/icons/icon_close.svg" alt=""></a>
+                </div>
+                <div class="modal-content no-padd">
+                    <div id="change-user-container">
+                        <div id="change-user-container-left">
+                            <p>Select the user you would like to log in as:</p>
+                            <ul id="change-user-list">
+                                <li>
+                                    <a href="#" class="lc">
+                                        <div class="avatar-img">
+                                            <img src="img/lc_default.png">
+                                        </div>
+                                        <div class="user">
+                                            <div class="user-name">Maria Lee</div>
+                                            <div class="user-id">j28_1362</div>
+                                        </div>
+                                        <div class="lc-label">Learning Coach</div>
+                                        <div class="arrow"><img src="img/icons/icon_chevron_right_gray.svg" alt=""></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="avatar-img">
+                                            <img src="img/user_placeholder.png">
+                                        </div>
+                                        <div class="user">
+                                            <div class="user-name">Log in with another account</div>
+                                        </div>
+                                        <div class="arrow"><img src="img/icons/icon_chevron_right_gray.svg" alt=""></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="change-user-container-right">
+                            <div class="back-btn"><a href="#"><img src="img/icons/icon_chevron_left_blue.svg" alt="">Back</a></div>
+                            <div id="change-user-form">
+                                <div class="user-id">
+                                    <div class="avatar-img">
+                                        <img src="img/lc_default.png">
+                                    </div>
+                                    <div class="user">
+                                        <div class="user-name">Maria Lee</div>
+                                        <div class="lc-label">Learning Coach</div>
+                                    </div>
+                                </div>
+                                <br>
+                                <form id='lc-form' action="">
+                                    <label for="username">Username <span class="red">*</span></label>
+                                    <input type="text" value="j28_1362" id="username">
+                                    <br>
+                                    <label for="password">Password <span class="red">*</span></label>
+                                    <input type="password" value="" id="password">
+                                    <input class="btn primary" id="lc-login-btn" type="submit" value="Log in">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal show" id="timeout-modal">
+            <div class="modal-window">
+                <div class="modal-title">Are you still there?<a href="#" class="close" id="close-btn"><img src="img/icons/icon_close.svg" alt=""></a></div>
+                <div class="modal-content center">
+                    <div class="timeout"><img src="img/themes/space/timeout_modal.jpg" alt=""></div>
+                    <p>We noticed that you haven't used your online school in a while. You will be logged out in <br> <strong><span id="minutes">5</span> minutes and <span id="seconds">00</span> seconds</strong>...</p>
+                    <br>
+                    <div class="btn-bar">
+                        <button class="btn primary lg">Continue Working</button>
+                        <button class="btn secondary lg">Log Out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Don't scale cards if less than 4 -->
+    <script src="js/courses/card-counter.js"></script>
+
+    <!-- 3D Tilt Effect -->
+    <script src="js/courses/vanilla-tilt.min.js"></script>
+
+    <!-- Sound Effects" -->
+    <script src="js/global/howler.min.js"></script>
+    <script src="js/global/sound.js"></script>
+
+    <!-- Fade Cards -->
+    <script src="js/courses/fade-cards.js"></script>
+
+    <!-- MO JS -->
+    <script src="js/global/mo.min.js"></script>
+    <!--<script src="js/nav-animation.js"></script>-->
+    
+    <!-- Tippy JS -->
+    <script src="https://unpkg.com/tippy.js@3.4.1/dist/tippy.all.min.js"></script>
+    
+    <!-- Do Accordions for Unit-List Page -->
+    <!--<script src="js/courses/acclordion.js"></script>-->
+    <script src="js/courses/unit-list-tooltips.js"></script>
+    
+    <!-- Global Nav Responsive Logic -->
+    <script src="js/global/more-nav.js"></script>
+    <script src="js/global/responsinator.js"></script>
+    
+    <!-- Plan -->
+    <script src="js/plan/glide-logic.js"></script>
+    <script src="js/plan/glide.min.js"></script>
+
+    <!-- Qualaroo -->
+    <script src="js/global/qualaroo-custom.js"></script>
+
+    <!-- Qualaroo -->
+    <script src="js/courses/accordion.js"></script>
+
+    <!-- Global -->
+    <script src="js/global/core-space.js"></script>
+    <script>
+        function startTimer(duration, m, s) {
+            var timer = duration, minutes, seconds;
+            setInterval(function () {
+                minutes = parseInt(timer / 60, 10);
+                seconds = parseInt(timer % 60, 10);
+    
+                minutes = minutes < 10 ? minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+    
+                m.textContent = minutes;
+                s.textContent = seconds;
+    
+                if (--timer < 0) {
+                    timer = duration;
+                }
+            }, 1000);
+        }
+        var countdown = (60 * 5); //In seconds
+        var m = document.querySelector('#minutes');
+        var s = document.querySelector('#seconds');
+        startTimer(countdown, m, s);
+        </script>
+</body>
+
+</html>

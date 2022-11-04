@@ -1,0 +1,116 @@
+body[data-qual-current-nudge='203118'] #qual_ol {
+    right: 0!important;
+}
+
+body[data-qual-current-nudge='203118']- #qual_ol_stuff > div.qual_ol_btm {
+    padding-top: 0!important;
+}
+
+body[data-qual-current-nudge='203118'] #qual_ol.qual_closed {
+    background: none!important;
+    box-shadow: none!important;
+}
+
+body[data-qual-current-nudge='203118'] .qual_x_clabel {
+    font-size: 14px!important;
+    line-height: 32px!important;
+}
+
+body[data-qual-current-nudge='203118'] .qual_x_clabel.qual_closed:hover .qual_x_clabel {
+    text-decoration: underline;
+}
+
+body[data-qual-current-nudge='203118'] .qual_x_close.qual_closed {
+    top: 5px!important;
+    background: none!important;
+}
+
+body[data-qual-current-nudge='203118'] div.qual_x_clabel.qual_has_label {
+    font-family: 'Poppins', sans-serif!important;
+    color: #006FBF;
+    font-weight: 600 !important;
+}
+
+body[data-qual-current-nudge='203118'] #qual_ol > div.qual_x_close.qual_closed:hover {
+    text-decoration: underline!important;
+}
+
+
+body[data-qual-current-nudge='203118'] #qual_ol_stuff > div.qual_ol_qtitle {
+    font-family: 'Poppins', sans-serif!important;
+    color: #37383b!important;
+    font-weight: 600!important;
+    font-size: 14px!important;
+}
+
+body[data-qual-current-nudge='203118'] #qual_ol_stuff > div.qual_ol_qdescr {
+    /* display: none!important; */
+    font-family: 'Poppins', sans-serif!important;
+}
+
+
+body[data-qual-current-nudge='203118'] #qual_ol_ans_box > div {
+    font-family: 'Poppins', sans-serif!important;
+}
+
+body[data-qual-current-nudge='203118'] #qual_ol_stuff > div.qual_ol_btm > div.qual_ol_send_box {
+    width: calc(100% - 5px)!important;
+    float: left!important;
+    padding: 0!important;
+    margin-bottom: 20px!important;
+}
+
+body[data-qual-current-nudge='203118'] #qual_ol_ans_box > div.qual_ol_ans_item.qual_x_select {
+    border: 2px solid #006FBF!important;
+    background-color: rgba(0, 111, 191, 0.1)!important;
+}
+
+body[data-qual-current-nudge='203118'] #qual_ol_send {
+    font-family: 'Poppins', sans-serif!important;
+    width: 100%!important;
+    max-width: 100%!important;
+    font-size: 16px!important;
+    text-transform: initial!important;
+    border-radius: 6px!important;
+    background: #006FBF!important;
+    box-shadow: 0 4px 0 rgb(9, 88, 145)!important;
+}
+
+body[data-qual-current-nudge='203118'] #qual_ol_ans_box .qual_ol_ans_item {
+    /* padding-left: 70px!important; */
+    padding-left: 40px!important;
+    border: 1px solid #8E919F!important;
+}
+
+body[data-qual-current-nudge='203118'] #qual_ol_ans_box .qual_ol_ans_item .qual_ol_ans_tick {
+    /* width: 14px!important;
+    height: 14px!important;
+    margin: 0!important;
+    top: calc(50% - 7px)!important;
+    left: 7px!important;  */
+    display: none!important;
+}
+
+body[data-qual-current-nudge='203118'] #qual_ol_ans_box > div.qual_ol_ans_item.qual_x_select > div.qual_ol_ans_tick.ki-ol_ans_tick_dot_ {
+    top: calc(50% + 5px)!important;
+}
+
+
+body[data-qual-current-nudge='203118'] #qual_ol_ans_box > div.qual_ol_ans_item.qual_x_select > div.qual_ol_ans_long_explain > textarea {
+    /* margin-left: -40px!important;
+    width: calc(100% + 30px)!important;
+    margin-top: 10px!important; */
+    border-color: #006FBF;
+}
+
+body[data-qual-current-nudge='203118'] #qual_ol_ans_box .qual_ol_ans_item {
+    background-position: 5px 1px!important;
+    background-repeat: no-repeat!important;
+    background-size: 30px 30px!important;
+}
+
+body[data-qual-current-nudge='203118'] #qual_ol_ans_box .qual_ol_ans_item:nth-child(1) { background-image: url('../img/survey/1.png');}
+body[data-qual-current-nudge='203118'] #qual_ol_ans_box .qual_ol_ans_item:nth-child(2) { background-image: url('../img/survey/2.png');}
+body[data-qual-current-nudge='203118'] #qual_ol_ans_box .qual_ol_ans_item:nth-child(3) { background-image: url('../img/survey/3.png');}
+body[data-qual-current-nudge='203118'] #qual_ol_ans_box .qual_ol_ans_item:nth-child(4) { background-image: url('../img/survey/4.png');}
+body[data-qual-current-nudge='203118'] #qual_ol_ans_box .qual_ol_ans_item:nth-child(5) { background-image: url('../img/survey/5.png');}
